@@ -1,0 +1,30 @@
+\subsection{Тензорезисторные датчики}
+Их работа основана на тензоэффекте: изменение электрического сопротивления тензорезистора при его деформации. 
+
+\begin{equation}
+	K = \frac{\sfrac{\Delta R}{R}}{\epsilon}
+\end{equation}
+- коэффициент относительной тензочувствительности.
+
+\begin{equation}
+	\frac{\Delta R}{R} = \frac{\Delta \rho}{\rho} + \frac{\Delta l}{l} - \frac{\Delta S}{S} = \frac{\Delta \rho}{\rho} + \frac{\Delta l}{l} - \frac{2\Delta r}{r} = \frac{\Delta \rho}{\rho} + (1 + 2\mu)\epsilon
+\end{equation}
+
+где $\mu$ - коэффициент Пуассона. Первое слагаемое - физическая тензочувствиельность, а второе - геометрическая тензочувствительность. 
+
+Для металлических проводников 
+
+\begin{equation}
+	\Delta \rho = \rho [\pi_{11} \sigma_{1} + \pi_{12}(\sigma_{2} + \sigma_{3})]
+\end{equation}
+где $\sigma_{123}$ - компоненты нормальных напряжений, $\pi_{11} \ pi_{12}$ - тензорезистивные коэффициенты.
+
+При линейных напряжениях $\sigma_{1} = \sigma, \ \sigma_{2} = \sigma_{3} = 0$.
+Откуда
+
+\begin{equation}
+	\frac{\Delta \rho}{\rho} = \pi_{11} \sigma = \pi_{11}E\epsilon    
+\end{equation}
+где Е - модуль Юнга.
+
+\newpage

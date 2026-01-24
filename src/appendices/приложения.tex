@@ -1,0 +1,60 @@
+\begin{appendices}
+	% Настройка нумерации приложений (А, Б, В...)
+	\titleformat{\chapter}[display]
+	{\normalfont\bfseries\centering}
+	{ПРИЛОЖЕНИЕ \Asbuk{chapter}}{0pt}{\Huge}
+	
+	\renewcommand{\thechapter}{\Asbuk{chapter}}
+	
+	\chapter{Исходные данные и технические характеристики}
+	\label{app:initial_data}
+	
+	\section{Технические характеристики объекта}
+	Таблица с характеристиками...
+	
+	\section{Исходные данные для расчета}
+	Формулы, данные...
+	
+	\chapter{Расчетные таблицы и графики}
+	\label{app:calculations}
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Результаты расчетов}
+		\begin{tabular}{|c|c|}
+			\hline
+			Параметр & Значение \\
+			\hline
+			A & 100 \\
+			B & 200 \\
+			\hline
+		\end{tabular}
+		\label{tab:calc_results}
+	\end{table}
+	
+	\chapter{Чертежи и схемы}
+	\label{app:drawings}
+	
+	\section{Схема электрическая принципиальная}
+	Описание схемы...
+	
+	\section{Чертеж общего вида}
+	Описание чертежа...
+	
+	\chapter{Исходный код программы}
+	\label{app:source_code}
+	
+	\section{Основной модуль}
+	\begin{verbatim}
+		// Пример кода
+		void main() {
+			printf("Hello World");
+		}
+	\end{verbatim}
+	
+	\chapter{Акт внедрения}
+	\label{app:implementation}
+	
+	Текст акта внедрения...
+	
+\end{appendices}

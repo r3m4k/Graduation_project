@@ -1,0 +1,6 @@
+
+build/
+
+copy_pdf.bat
+
+*.pdf

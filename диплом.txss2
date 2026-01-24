@@ -1,0 +1,32 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": true,
+        "File": "build/main.pdf"
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "src/theory/теоретическая часть.tex",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 37,
+                "EditorGroup": 0,
+                "FileName": "main.tex",
+                "FirstLine": 165,
+                "FoldedLines": "",
+                "Line": 209
+            },
+            {
+                "Col": 8,
+                "EditorGroup": 0,
+                "FileName": "src/theory/теоретическая часть.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 19
+            }
+        ],
+        "MasterFile": "main.tex",
+        "VerticalSplit": true
+    }
+}

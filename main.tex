@@ -144,7 +144,7 @@ isbn=false,                                         % Не показывать 
 giveninits=false                                    % Не сокращать фамилию до инициалов
 ]{biblatex}[2016/09/17]
 \DeclareDelimFormat{bibinitdelim}{}                 % Убираем пробел между инициалами (Иванов И.И. вместо Иванов И. И.)
-\addbibresource{bib.bib}                           % Определяем файл с библиографией
+\addbibresource{../bib.bib}                         % Определяем файл с библиографией
 
 %%% Скрипт, который автоматически подбирает язык (и, следовательно, формат) для каждой библиографической записи %%%
 %%% Если в названии работы есть кириллица - меняем значение поля langid на russian %%%
@@ -186,7 +186,6 @@ giveninits=false                                    % Не сокращать ф
 \usepackage{setspace}
 \usepackage{makecell}
 \usepackage{appendix}
-\usepackage{titlesec}
 
 %%% Вставляем по очереди все содержательные части документа %%%
 
@@ -213,5 +212,8 @@ giveninits=false                                    % Не сокращать ф
 %	\input{src/appendices/приложения.tex}
 	
 	\nocite{*}
+	
+	\printbibliography[title=Список использованных источников] % Автособираемый список литературы
+	
 	
 \end{document}

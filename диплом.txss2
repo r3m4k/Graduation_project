@@ -6,24 +6,24 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "src/theory/теоретическая часть.tex",
+        "CurrentFile": "main.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 37,
+                "Col": 81,
                 "EditorGroup": 0,
                 "FileName": "main.tex",
-                "FirstLine": 165,
+                "FirstLine": 198,
                 "FoldedLines": "",
-                "Line": 209
+                "Line": 219
             },
             {
-                "Col": 8,
+                "Col": 77,
                 "EditorGroup": 0,
-                "FileName": "src/theory/теоретическая часть.tex",
+                "FileName": "src/conclution/заключение.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 19
+                "Line": 13
             }
         ],
         "MasterFile": "main.tex",

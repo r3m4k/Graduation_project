@@ -6,24 +6,32 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "main.tex",
+        "CurrentFile": "src/main_part/разработка навигационного алгоритма.tex",
         "FileVersion": 1,
         "Files": [
             {
-                "Col": 81,
+                "Col": 15,
                 "EditorGroup": 0,
                 "FileName": "main.tex",
-                "FirstLine": 198,
+                "FirstLine": 173,
                 "FoldedLines": "",
-                "Line": 219
+                "Line": 191
             },
             {
-                "Col": 77,
+                "Col": 96,
                 "EditorGroup": 0,
                 "FileName": "src/conclution/заключение.tex",
                 "FirstLine": 0,
                 "FoldedLines": "",
-                "Line": 13
+                "Line": 8
+            },
+            {
+                "Col": 18,
+                "EditorGroup": 0,
+                "FileName": "src/main_part/разработка навигационного алгоритма.tex",
+                "FirstLine": 220,
+                "FoldedLines": "",
+                "Line": 238
             }
         ],
         "MasterFile": "main.tex",

@@ -1,5 +1,6 @@
 
 build/
+!build/main.pdf
 
 copy_pdf.bat
 

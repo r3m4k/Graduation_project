@@ -1,9 +1,10 @@
 
 build/
+*.pdf
+
 !build/main.pdf
 
 copy_pdf.bat
 
-*.pdf
 
 .obsidian/
